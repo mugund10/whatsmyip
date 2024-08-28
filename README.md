@@ -6,5 +6,5 @@ A [simple HTTP server](https://aws.mugund10.top/ip) that echoes a client public 
 
 ```bash
 $ curl https://aws.mugund10.top/ip
-{"addr":"120.56.34.0"}
 ```
+`{"addr":"120.56.34.0"}`
