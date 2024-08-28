@@ -1,5 +1,5 @@
 > [!NOTE]
-> The [server](https://aws.mugund10.top/ip) is secured with HTTPS using TLS certificates obtained through my [LetsEncryptAcmeClient](https://github.com/mugund10/LetsEncryptAcmeClient) project
+> The [server](https://aws.mugund10.top/ip) is secured with HTTPS using TLS certificates obtained through my [LetsEncryptAcmeClient](https://github.com/mugund10/LetsEncryptAcmeClient)
 
 
 ## whatsmyip
