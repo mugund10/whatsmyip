@@ -12,11 +12,11 @@ type ip struct {
 }
 
 func main() {
-	port := ":80"
+	port := ":443"
 
 	http.HandleFunc("/ip", ipHandler)
-	log.Println("server running on port","http://localhost"+port+"/ip")
-	http.ListenAndServe(port, nil)
+	log.Println("server running on port", "https://aws.mugund10.top"+port+"/ip")
+	http.ListenAndServeTLS(port, "/home/ubuntu/LetsEncryptAcmeClient/cmd/acmeclient/fullchain.pem", "/home/ubuntu/LetsEncryptAcmeClient/cmd/acmeclient/pk[aws.mugund10.top].pem", nil)
 }
 
 func ipHandler(w http.ResponseWriter, r *http.Request) {
